@@ -10,7 +10,7 @@ function insert_Row() {
   var cell2 = newRow.insertCell(1);
  
   // Set the cell content
-  cell1.innerHTML = "New cell 1";
-  cell2.innerHTML = "New cell 2";
+  cell1.innerHTML = "New cell1";
+  cell2.innerHTML = "New cell2";
   
 }
