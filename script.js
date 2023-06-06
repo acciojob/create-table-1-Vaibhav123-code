@@ -3,7 +3,7 @@ function insert_Row() {
   var table = document.getElementById("sampleTable");
 
   // Create a new row
-  var newRow = table.insertRow();
+  var newRow = table.insertRow(0);
 
   // Create cells for the new row
   var cell1 = newRow.insertCell(0);
